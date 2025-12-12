@@ -23,6 +23,9 @@
       <height>24</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="text">
      <string>Add new</string>
     </property>
@@ -36,6 +39,18 @@
       <height>471</height>
      </rect>
     </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectionBehavior::SelectRows</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
     <column>
      <property name="text">
       <string>Тип</string>
@@ -51,6 +66,22 @@
       <string>Адрес</string>
      </property>
     </column>
+   </widget>
+   <widget class="QPushButton" name="editor_button">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>480</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

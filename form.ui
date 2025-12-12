@@ -39,7 +39,7 @@
     <string>Cancel</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="address_line">
    <property name="geometry">
     <rect>
      <x>280</x>
@@ -62,7 +62,7 @@
     <string>Адрес</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="radioButton">
+  <widget class="QRadioButton" name="rb_residence">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -74,8 +74,11 @@
    <property name="text">
     <string>Жилое</string>
    </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
   </widget>
-  <widget class="QRadioButton" name="radioButton_2">
+  <widget class="QRadioButton" name="rb_commercial">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -101,7 +104,7 @@
     <string>Цена</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="price_line">
    <property name="geometry">
     <rect>
      <x>280</x>
