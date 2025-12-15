@@ -66,6 +66,16 @@
       <string>Адрес</string>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>Описание</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
    </widget>
    <widget class="QPushButton" name="editor_button">
     <property name="geometry">
